@@ -1,0 +1,20 @@
+const accountId = 12345
+let accountEmail = "nisha@gmail.com"
+var accountPassword = "1234567"
+accountCity = "jaipur"
+let accountName;
+
+//accountId = 2 // not allowed bcz it is constant.
+
+accountEmail ="hgfh@gmail.com"
+accountPassword = "22334455"
+accountCity = "Bengaluru"
+
+console.log(accountId);
+
+/* prefer not to use var bcz
+of issue in block scope and functional scope
+
+*/
+
+console.table([accountId, accountEmail, accountPassword, accountCity, accountName]);
