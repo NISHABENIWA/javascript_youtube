@@ -2,7 +2,7 @@
 //const r = 50;
 // console.log("hi" + "hlo" + "no");
 
-//console.log('Hello my name is ${n} and my repocount is ${r}');
+console.log(`Hello my name is ${n} and my repocount is ${r}`);
 const string1 = new String("nisha");
 //console.log(string1);
 //console.log(string1.__proto__);
