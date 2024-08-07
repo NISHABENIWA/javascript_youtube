@@ -16,18 +16,29 @@ function one(){
         console.log(username);
 
     }
-     console.log(website);
+     //console.log(website);
      two();
 }
 one()
+
 if(true){
     const username = "hitesh"
     if(username === "hitesh"){
         const websiten= "youtube"
-        console.log(username + website);
+        //console.log(username + website);
     }
-    console.log(website);
+    //console.log(website);
 }
-console.log(username);
+//console.log(username);
+
+function addone(num){
+    return num +1
+}
+addone(5);
+
+const addTwo = function(num){
+    return num+2
+}
+ addTwo(5);
 
     
